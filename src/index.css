@@ -9,6 +9,13 @@
 
 .app {
   min-height: 100vh;
-  display: grid;
+  min-width: fit-content;
+  max-width: 100vw;
   background: #e2d4ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
 }
